@@ -21,7 +21,7 @@ echo $event ."<br>";
         $reply_token = $event['replyToken'];
 
 ##$text = $event['message']['text'];
-        $text='Hi Ball';
+        $text=$event;
         $data = [
             'replyToken' => $reply_token,
             'messages' => [['type' => 'text', 'text' => $text ]]
