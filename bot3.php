@@ -13,13 +13,15 @@ $request_array = json_decode($request, true);   // Decode JSON to Array
 
 
 
-if (sizeof($request_array['events']) > 0 && strpos($request_array['events']['message'],'Jarvis')!==0) {
+if (sizeof($request_array['events']) > 0) {
 
     foreach ($request_array['events'] as $event) {
 ##echo $event ."<br>";
         $reply_message = '';
         $reply_token = $event['replyToken'];
-
+        
+        
+if (strpos($event['message']['text'],'Jarvis')!==0){
 ##$text = $event['message']['text'];
         $text=join(', ', $event);
         $data = [
@@ -30,7 +32,7 @@ if (sizeof($request_array['events']) > 0 && strpos($request_array['events']['mes
 
         $send_result = send_reply_message($API_URL.'/reply', $POST_HEADER, $post_body);
 
-        echo "Result: ".$send_result."\r\n";
+        echo "Result: ".$send_result."\r\n";}
         
     }
 }
