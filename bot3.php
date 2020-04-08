@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text="Hi";
+    $text="สวัสดี มีอะไรให้กระผมช่วยครับ";
         ##else{
         ##$text="it not ok";
     ##}
