@@ -24,9 +24,10 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text="it ok";}
-        else{
-        $text="it not ok";}
+    $text="Hi";}
+        ##else{
+        ##$text="it not ok";
+    ##}
         $data = [
             'replyToken' => $reply_token,
             'messages' => [['type' => 'text', 'text' => $text ]]
