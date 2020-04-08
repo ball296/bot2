@@ -21,7 +21,7 @@ if (sizeof($request_array['events']) > 0) {
         $reply_token = $event['replyToken'];
         
        $text = $event['message']['text']; 
-if ($text,'Jarvis')!==0){
+if (strpos($text,'Jarvis')!==0){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
     $text="it ok";
