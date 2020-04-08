@@ -24,7 +24,8 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis')!==0){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text="it ok";
+    $text="it ok";}
+         $text="it not ok";
         $data = [
             'replyToken' => $reply_token,
             'messages' => [['type' => 'text', 'text' => $text ]]
@@ -33,7 +34,7 @@ if (strpos($text,'Jarvis')!==0){
 
         $send_result = send_reply_message($API_URL.'/reply', $POST_HEADER, $post_body);
 
-        echo "Result: ".$send_result."\r\n";}
+        echo "Result: ".$send_result."\r\n";
         
     }
 }
