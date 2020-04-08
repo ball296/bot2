@@ -25,7 +25,8 @@ if (strpos($text,'Jarvis')!==0){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
     $text="it ok";}
-         $text="it not ok";
+        else{
+         $text="it not ok";}
         $data = [
             'replyToken' => $reply_token,
             'messages' => [['type' => 'text', 'text' => $text ]]
