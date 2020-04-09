@@ -21,10 +21,10 @@ if (sizeof($request_array['events']) > 0) {
         $reply_token = $event['replyToken'];
         
        $text = $event['message']['text']; 
-if (strpos($text,'Jarvis')!==false){
+if (strpos($text,'Jarvis ขอเบอร์โทร สฟฟ.')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text="สวัสดี มีอะไรให้กระผมช่วยครับ";
+    $text="https://www.imgtrue.com/image/mLJd4K";
         ##else{
         ##$text="it not ok";
     ##}
