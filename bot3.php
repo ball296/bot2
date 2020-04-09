@@ -30,7 +30,7 @@ if (strpos($text,'Jarvis tel สฟฟ')!==false){
     ##}
         $data = [
             'replyToken' => $reply_token,
-            'messages' => [['type' => 'image', 'originalContentUrl' => $text ]]
+            'messages' => [['type' => 'image', 'originalContentUrl' => $text,'previewImageUrl'=>$text ]]
       ];
         $post_body = json_encode($data, JSON_UNESCAPED_UNICODE);
 
