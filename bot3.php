@@ -21,7 +21,7 @@ if (sizeof($request_array['events']) > 0) {
         $reply_token = $event['replyToken'];
         
        $text = $event['message']['text']; 
-if (strpos($text,'Jarvis tel สฟฟ')!==false){
+if (strpos($text,'Jarvis ขอเบอร์ สฟฟ')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
     $text="https://www3.imgtrue.com/2020/04/09/236796_05265e663e5355c58.jpg";
