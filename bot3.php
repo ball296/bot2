@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis ขอเบอร์โทร สฟฟ.')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text="https://www.imgtrue.com/image/mLJd4K";
+    $text="https://www3.imgtrue.com/2020/04/09/236796_05265e663e5355c58.jpg";
         ##else{
         ##$text="it not ok";
     ##}
