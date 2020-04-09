@@ -21,7 +21,7 @@ if (sizeof($request_array['events']) > 0) {
         $reply_token = $event['replyToken'];
         
        $text = $event['message']['text']; 
-if (strpos($text,'Jarvis ขอเบอร์โทร สฟฟ.')!==false){
+if (strpos($text,'Jarvis tel สฟฟ')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
     $text="https://www3.imgtrue.com/2020/04/09/236796_05265e663e5355c58.jpg";
@@ -30,7 +30,7 @@ if (strpos($text,'Jarvis ขอเบอร์โทร สฟฟ.')!==false){
     ##}
         $data = [
             'replyToken' => $reply_token,
-            'messages' => [['type' => 'image', 'text' => $text ]]
+            'messages' => [['type' => 'image', 'originalContentUrl' => $text ]]
       ];
         $post_body = json_encode($data, JSON_UNESCAPED_UNICODE);
 
