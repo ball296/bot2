@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis P')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text='https:\/\/i.imgur.com\/50KXG4C.jpg';
+    $text='https://i.imgur.com//50KXG4C.jpg';
         ##else{
         ##$text="it not ok";
     ##}
