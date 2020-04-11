@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis pic')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text='hhttps://drive.google.com/file/d/10SkA5xJgw3avY2zMBM7fU-Vb4YAIP1d6/view';
+    $text='https://drive.google.com/file/d/10SkA5xJgw3avY2zMBM7fU-Vb4YAIP1d6/view?usp=sharing';
         ##else{
         ##$text="it not ok";
     ##}
