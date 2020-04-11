@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis P')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text='https://www.google.co.th/url?sa=i&url=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fresident-evil-3-remake-walkthrough-downtown-raccoo%2F1100-6475395%2F&psig=AOvVaw1B7co3Z2rPBJ6Hz8WmyiuL&ust=1586696428760000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIC90fu24OgCFQAAAAAdAAAAABAD';
+    $text='https://gamespot1.cbsistatic.com/uploads/original/1581/15811374/3651138-resident%20evil%203_20200405195357.jpg';
         ##else{
         ##$text="it not ok";
     ##}
