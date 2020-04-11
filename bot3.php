@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis P')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text='https://www.dropbox.com/s/7e9cxfib638wv2n/395cbdc769cbbc96a8d123a5f1f16e80.jpg?dl=0';
+    $text='https:\/\/i.imgur.com\/50KXG4C.jpg';
         ##else{
         ##$text="it not ok";
     ##}
