@@ -30,8 +30,9 @@ if (strpos($text,'Jarvis P')!==false){
     ##}
         $data = [
             'replyToken' => $reply_token,
-            'messages' => [['type' => 'image', 'originalContentUrl' => $text,'previewImageUrl'=>$text ]]
+            ##'messages' => [['type' => 'image', 'originalContentUrl' => $text,'previewImageUrl'=>$text ]]
             ##'messages' => [['type' => 'text', 'text' => $text ]]
+            'messages' => [['type' => 'image', 'originalContentUrl']]
       ];
         $post_body = json_encode($data, JSON_UNESCAPED_UNICODE);
 
