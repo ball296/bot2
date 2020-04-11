@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
 if (strpos($text,'Jarvis P')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
-    $text='https://previews.dropbox.com/p/thumb/AAyoAsvShPL5m9AWJE-8CC9dp4FkucpdNEytKUyoH1k7J3tinEoOQauNVuSn2Li5Y0dVqAgvxclxY7lFQ7Jq50nmtBGUvKKf9V3kKtnMf5G_jXxO0eUahVYAJB5FPkjjOAL4ABZYQ0OfDPAbtT1SGWUC1elx1TjX4zcREX6n3ZY5Fyf7aGLPHJDa-ARv4Lm8oyNcoKWmFcV6uyjsokCSSkyCJsdeUiaBdUkPz9xRkcYMPn9yFfHyAPHsV0ugIlZLUjDB_uacIcYkfAG1G2j9e8gfTCgNtKJLtAGuncg8J9RJGIpUHt-uXQYMiJzUkHKg5XmSENrhEoJk4MlgmQVIelJ2/p.jpeg';
+    $text='https://www.google.co.th/url?sa=i&url=https%3A%2F%2Fwww.gamespot.com%2Farticles%2Fresident-evil-3-remake-walkthrough-downtown-raccoo%2F1100-6475395%2F&psig=AOvVaw1B7co3Z2rPBJ6Hz8WmyiuL&ust=1586696428760000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIC90fu24OgCFQAAAAAdAAAAABAD';
         ##else{
         ##$text="it not ok";
     ##}
