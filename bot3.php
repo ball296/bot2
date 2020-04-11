@@ -21,7 +21,7 @@ if (sizeof($request_array['events']) > 0) {
         $reply_token = $event['replyToken'];
         
        $text = $event['message']['text']; 
-if (strpos($text,'Jarvis pic')!==false){
+if (strpos($text,'Jarvis P')!==false){
 ##$text = $event['message']['text'];
         ##$text=join(', ', $event);
     $text='https://drive.google.com/uc?id=10SkA5xJgw3avY2zMBM7fU-Vb4YAIP1d6';
