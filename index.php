@@ -156,6 +156,7 @@ if (strpos($text,'Jarvis flex')!==false){
         
     }
 }
+}
 
 echo "OK";
 
