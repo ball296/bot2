@@ -122,7 +122,7 @@ $jsonFlex = [
             "action" => [
               "type" => "uri",
               "label" => "View Details",
-              "uri" => "https://google.co.th/"
+              "uri" => "https://liff.line.me/1655423177-8dMEraKE"
             ]
           ]
         ]
